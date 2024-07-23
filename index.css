@@ -1,0 +1,149 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+.navigation-ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ff7171;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #100b0f;
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 100px;
+}
+.img-nav {
+  width: 30px;
+  cursor: pointer;
+  margin-right: 100px;
+
+  /* align-self: flex-start; */
+}
+.top-cont {
+  background-image: linear-gradient(to right, #f7e9a8, #f58cee);
+  display: flex;
+}
+.cont-1 {
+  width: 50%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Arial";
+}
+.heading-1 {
+  font-size: 40px;
+}
+.paragraph-1 {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.click-me {
+  width: 29%;
+  height: 12%;
+  background-color: #ff7171;
+  border: 0;
+  outline: none;
+  color: #fff;
+  font-size: 15px;
+  font-family: "candara light";
+  cursor: pointer;
+}
+.top-img-cont {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-img-cont img {
+  max-width: 120%;
+  height: auto;
+}
+.bottom-cont {
+  background-image: linear-gradient(to right, #f7e9a8, #f58cee);
+  padding: 5%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-img-cont {
+  width: 70%;
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  align-items: flex-start;
+}
+.images-two {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.images-two img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+#i1 {
+  height: 245px;
+  width: 250px;
+}
+#i2 {
+  height: 245px;
+  width: 250px;
+}
+
+#i3 {
+  height: 495px;
+  width: 265px;
+}
+
+.bottom-text-cont {
+  margin-right: 310px;
+  background-color: #f56464;
+  padding: 2%;
+  width: 50%;
+  font-family: "Arial";
+}
+.bottom-heading {
+  margin-bottom: 2px;
+  font-size: 20px;
+}
+.bottom-small-heading {
+  font-size: 50px;
+  margin-bottom: 2px;
+}
+.arrow {
+  display: flex;
+  align-items: center;
+}
+.heading-click {
+  font-size: 20px;
+  margin-right: 2px;
+}
+.arrow-img {
+  width: 20px;
+  margin-left: 5px;
+}
+@media screen and (max-width: 576px) {
+  .navigation-ul {
+    flex-direction: column;
+  }
+  .navigation-li {
+    display: none;
+  }
+  .top-cont {
+    flex-direction: column;
+  }
+}
